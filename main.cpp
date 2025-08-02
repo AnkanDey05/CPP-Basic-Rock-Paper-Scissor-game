@@ -15,7 +15,6 @@ int main() {
        char winner= get_winner(player);
         calculate_score(player_score,com_score,winner);
         std::cout<<"\nYour Score: "<<player_score;
-        std::cout<<std::setw(15)<<" | ";
         std::cout<<std::setw(15)<<"Computer Score: "<<com_score<<"\n"<<std::endl;
         command=menu(in_game);
         }
